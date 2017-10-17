@@ -1,0 +1,38 @@
+/* se unen dos divs con propiedades similares
+y se les da color de fondo, altura, margen y margen
+interno */
+.firstOrange, .secondOrange{
+    background-color: rgb(255,197,54);
+    height: 11vh;
+    width: 30vh;
+    margin: 5px;
+    padding: 5px;
+    display:inline;
+}
+/* se le agrega lo mismo que en orange
+solo que este es de color negro con el texto
+blanco */
+.firstBlack{
+    background-color: black;
+    color: white;
+    height: 11vh;
+    width: 30vh;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+}
+nav{
+  margin-left: 35%;
+}
+a{
+  color: white;
+  display: inline-block;
+  margin: auto;
+  background-color: rgb(53, 134, 180);
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover{
+  background-color: rgb(8, 61, 99);
+}
